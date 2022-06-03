@@ -44,7 +44,7 @@ describe('Extract Data from Amazon site', () => {
     var list = []
     let modelName, rating, price;
     cy.get('[data-component-type="s-search-result"]').each((el, index, list) => {
-      let a = el.text().replace("(Renewed)", "").trimLeft()
+      let a = el.text().replace("(Renewed)", "")
 
       //Model name
       if (a.split(")")[0].includes("Sponsored")) {
@@ -81,9 +81,8 @@ describe('Extract Data from Amazon site', () => {
       list.push(extract)
     })
     cy.log(extract)
-    cy.writeFile('cypress/fixtures/extract.json', extract);
-    cy.readFile('cypress/fixtures/extract.json')
-    console.log()
+  
+    cy.writeFile("cypress/fixtures/extract.json", extract);
   })
 
 })
