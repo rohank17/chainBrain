@@ -1,0 +1,5 @@
+/node_modules
+/cypress/fixtures/extract.json
+/cypress/reports
+/cypress/screenshots
+/cypress/videos

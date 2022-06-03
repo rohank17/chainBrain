@@ -1,0 +1,17 @@
+{
+    "env": {
+        "category": "Electronics",
+        "searchKeyword": "samsung galaxy s22 ultra",
+        "expectedKeyword": "samsung galaxy s22 ultra In Electronics",
+        "": ""
+    },
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/reports",
+        "charts": true,
+        "reportPageTitle": "Extract Data from Amazon",
+        "embeddedScreenshots": true,
+        "inlineAssets": true
+    },
+    "video": true
+}

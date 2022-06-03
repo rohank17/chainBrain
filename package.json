@@ -1,0 +1,17 @@
+{
+  "name": "chainbrain",
+  "version": "1.0.0",
+  "description": "Task from chainbrain",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run  --headed --browser chrome "
+  },
+  "author": "Rohan Khandelwal",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.7.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.1.0"
+  }
+}
